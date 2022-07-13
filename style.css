@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header
+{
+  height: 100vh;
+}
+.navbar-style
+{
+  box-shadow: 0 5px 10px #efefef;
+}  
+.logo
+{
+  height: 80px;
+
+}
+.logo2
+{
+  height: 50px;
+  border-radius: 50px;
+
+}
+#EASEW
+{
+  color: white;
+}
+#EASEW:hover
+{
+  color: lightskyblue;
+}
+.cont
+{
+  padding-top: 100px;
+}
+.row
+{
+  background-color: lightskyblue;
+  border-radius: 30px;
+}
+#row1
+{
+  padding-top: 200px;
+}
+#welcometo
+{
+  font-size: 60px;
+  color: black;
+}
+#easew
+{
+  font-size: 100px;
+  color: black;
+}
+#row2
+{
+  padding-top: 200px;
+}
+#choice
+{
+  font-size: 40px;
+  color: black;
+}
+.btn1
+{
+  margin-bottom: 100px;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn1:hover
+{
+  background: darkblue;
+  border: 1px solid;
+  color: white;
+}
+.EASEW
+{
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.row-header
+{
+  opacity: 80%;
+}
+.banner{
+  height: 100vh;
+  width: 100%;
+}
+.banner .navbar-brand{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.banner .nav
+{
+  padding-bottom: 10px;
+}
+.banner .nav li a{
+  color:  whitesmoke;
+  font-size: 15px;
+}
+.navbar-md
+{
+  background-color: black;
+}
+.cont
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 200px;
+}
+.info h1{
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 50px;
+}
+.info p{
+  font-size: 2em;
+  font-weight: 500;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+#middle
+{
+  background-color: grey;
+}
+#reqButton
+{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 30px;
+}
+#midRow
+{
+  background-color: grey;
+  border-radius: 25px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+.dropdown {
+  width: 100px;
+}
