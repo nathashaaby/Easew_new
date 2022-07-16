@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+  <html lang="en">
 
   <head>
 
@@ -25,51 +25,57 @@
 
   <body style="background-image: url(bg.jpg); background-repeat: no-repeat; background-size: cover;">
 
-          <nav class="navbar navbar-md">
+    <nav class="navbar navbar-md">
 
-            <div class="navbar-brand">
+      <div class="navbar-header">
 
-              <a href=""><img class="logo2" src="EASEW.png"></a> <font id="EASEW">EASEW</font>
-            </div>
+        <img class="logo2" src="EASEW.png">
+        <font id="EASEW">EASEW</font>
+      </div>
 
-            <ul class="nav">
+      <ul class="nav">
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
-              </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="border-style: solid; border-radius: 25px;">HOME</a>
+        </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">MY REQUESTS</a>
-              </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="border-style: solid; border-radius: 25px; border-color: black;">MY REQUESTS</a>
+        </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-              </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="border-style: solid; border-radius: 25px; border-color: black;">ABOUT</a>
+        </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
-            </ul>
-          </nav>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="border-style: solid; border-radius: 25px; border-color: black;">CONTACT</a>
+        </li>
 
-          <div class="container cont">
+        <li class="nav-item">
+          <a class="nav-link" href="Cust Login.html" style="border-style: solid; border-radius: 25px; border-color: black;">LOG OUT</a>
+        </li>
+      </ul>
+    </nav>
 
-            <div id="midRow" class="row no-gutters text-center">
+    <div class="container" style="margin-top: 275px">
 
-              <div class="col-lg-12 info">
+      <div id="Row" class="row no-gutters text-center">
 
-                <h1>EASEW</h1>
+        <div class="col-lg-12 homePage">
 
-                <p class="text-center">Let's create something new! Send a request now!</p>
+          <h1>EASEW</h1>
 
-                <a href="Custsendreq.html"><button id="reqButton" type="button" class="btn btn-primary btn-lg">NEW REQUEST!</button></a>
-              </div>
-            </div>
-          
+          <p class="text-center">Let's create something new! Send a request now!</p>
+
+          <a href="Custsendreq.html"><button id="reqButton" type="button" class="btn btn-primary btn-lg">NEW REQUEST!</button></a>
+        </div>
+      </div>
+    </div>
+
   </body>
 
   <script type="module">
-    
+
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "firebase/app";
     import { getAnalytics } from "firebase/analytics";
@@ -99,4 +105,4 @@
     
 
   </script>
-</html>
+  </html>

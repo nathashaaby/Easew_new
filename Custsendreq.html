@@ -35,125 +35,156 @@
 
 <body style="background-image: url(bg.jpg); background-repeat: no-repeat; background-size: cover;">
 
-  <h1 id="user"></h1>
-  <div class="container-fluid banner">
+  <nav class="navbar navbar-md">
 
-    <div class="row-header">
+    <div class="navbar-header">
 
-      <div class="col-lg-13">
+      <img class="logo2" src="EASEW.png">
+      <font id="EASEW">EASEW</font>
+    </div>
 
-        <nav class="navbar navbar-md">
+    <ul class="nav">
 
-          <div class="navbar-brand">
+      <li class="nav-item">
+        <a class="nav-link" href="Cust HomePage.html" style="border-style: solid; border-radius: 25px; border-color: black;">HOME</a>
+      </li>
 
-            <a href=""><img class="logo2" src="EASEW.png"></a> EASEW
-          </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="border-style: solid; border-radius: 25px; border-color: black;">MY
+          REQUESTS</a>
+      </li>
 
-          <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="border-style: solid; border-radius: 25px; border-color: black;">ABOUT</a>
+      </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
-            </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="border-style: solid; border-radius: 25px; border-color: black;">CONTACT</a>
+      </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">MY REQUESTS</a>
-            </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Cust Login.html"
+          style="border-style: solid; border-radius: 25px; border-color: black;">LOG OUT</a>
+      </li>
+    </ul>
+  </nav>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
-            </li>
+  <div class="container">
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>
-          </ul>
-        </nav>
+    <div id="Row" class="row no-gutters align-items-center" style="margin-top: 150px">
 
-        <div class="container cont">
+      <div class="col" align="center">
 
-          <div class="row no-gutters">
+        <h1 class="font-weight-bold px-4" style="color: white;"><b>POST A REQUEST!</b></h1>
 
-            <div class="col-lg-12">
+        <h3 class="font-weight-bold px-4" style="color: white;"><b>Enter the necessary details about your dress here</b>
+        </h3>
 
-              <h2 class="font-weight-bold px-4 mb-5"><b>New Request</b></h2>
+        <h3 class="font-weight-bold px-4" style="color: white;"><b>Be specific and be free!</b></h3>
+      </div>
+      <div class="col">
 
-              <form>
-                <div class="form-row">
+        <h2 class="font-weight-bold mb-5" style="color: white;"><b>New Request</b></h2>
 
-                  <div class="col-lg-7">
+        <form>
 
-                    <p style="font-size: 15px; font-weight: bold;">DRESS TYPE</p>
+          <div class="form-row" style="padding-right: 10px;">
 
-                    <select id="choose" class="form-select form-select-lg mb-3">
+            <div class="col">
 
-                      <option selected>CHOOSE</option>
-                      <option value="CASUAL">CASUAL</option>
-                      <option value="OCCASSIONAL">OCCASSIONAL</option>
-                      <option value="MEN'S">MEN'S</option>
-                      <option value="WOMEN'S">WOMEN'S</option>
-                      <option value="KID'S">KID'S</option>
-                      <option value="UNIFORM">UNIFORM</option>
-                    </select>
-                  </div>
-                </div>
+              <p style="color: white; font-size: 15px; font-weight: bold;">TITLE</p>
 
-                <div class="form-row">
-
-                  <div class="col-lg-7">
-
-                    <div class="form-floating">
-
-                      <p style="font-size: 15px; font-weight: bold;">DRESS DESCRIPTION</p>
-
-                      <textarea id="details" class="form-control mb-3" id="details"
-                        placeholder="Describe yourself here..."></textarea>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="form-row">
-
-                  <div class="col-lg-7">
-
-                    <p style="font-size: 15px; font-weight: bold;">EXPECTED RATE</p>
-
-                    <input id="rate" class="form-control mb-3" type="text" name="rate">
-                  </div>
-                </div>
-
-                <div class="form-row">
-
-                  <div class="col-lg-7">
-
-                    <p style="font-size: 15px; font-weight: bold;">EXPECTED DATE</p>
-
-                    <input id="date" class="form-control mb-3" type="date" name="date">
-                  </div>
-                </div>
-
-                <div class="form-row">
-
-                  <div class="col-lg-7">
-
-                    <p style="font-size: 15px; font-weight: bold;">IMAGES FOR REFERENCE</p>
-
-                    <input id="file" class="form-control mb-3" type="file" name="reference">
-                  </div>
-                </div>
-
-                <div class="form-row">
-
-                  <div class="col-lg-7">
-
-                    <button id="request" type="button" class="btn1 my-3">POST REQUEST!</button>
-                  </div>
-                </div>
-              </form>
+              <input id="title" class="form-control mb-3" type="text" name="title">
             </div>
           </div>
-        </div>
+          <div class="form-row" style="padding-right: 10px;">
+
+            <div class="col">
+
+              <p style="color: white; font-size: 15px; font-weight: bold;">DRESS TYPE</p>
+
+              <select id="choose" class="form-select form-select-lg mb-3">
+
+                <option selected>CHOOSE</option>
+                <option value="CASUAL">CASUAL</option>
+                <option value="FORMAL">FORMAL</option>
+                <option value="FESTIVE">FESTIVE</option>
+             
+              </select>
+            </div>
+          </div>
+          <div class="form-row" style="padding-right: 10px;">
+
+            <div class="col">
+
+              <p style="color: white; font-size: 15px; font-weight: bold;">CATEGORY</p>
+
+              <select id="choose" class="form-select form-select-lg mb-3">
+
+                <option selected>CHOOSE</option>
+                <option value="MEN">MEN</option>
+                <option value="WOMEN">WOMEN</option>
+                <option value="KIDS">KIDS</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row" style="padding-right: 10px;">
+
+            <div class="col">
+
+              <div class="form-floating">
+
+                <p style="color: white; font-size: 15px; font-weight: bold;">DRESS DESCRIPTION</p>
+
+                <textarea class="form-control mb-3" id="details" placeholder="Describe about your outfit..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row" style="padding-right: 10px;">
+
+            <div class="col">
+
+              <p style="color: white; font-size: 15px; font-weight: bold;">EXPECTED RATE</p>
+
+              <input id="rate" class="form-control mb-3" type="text" name="rate">
+            </div>
+          </div>
+
+          <div class="form-row" style="padding-right: 10px;">
+
+            <div class="col">
+
+              <p style="color: white; font-size: 15px; font-weight: bold;">EXPECTED DATE</p>
+
+              <input id="date" class="form-control mb-3" type="date" name="date">
+            </div>
+          </div>
+
+          <div class="form-row" style="padding-right: 10px;">
+
+            <div class="col">
+
+              <p style="color: white; font-size: 15px; font-weight: bold;">IMAGES FOR REFERENCE</p>
+
+              <input class="form-control mb-3" type="file" name="reference">
+            </div>
+          </div>
+
+          <div class="form-row" style="padding-right: 10px;">
+
+            <div class="col">
+
+              <button id="request" type="button" class="btn1 my-5">POST REQUEST!</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
+  </div>
+  </div>
+  </div>
   </div>
 </body>
 
@@ -174,15 +205,15 @@
   import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-auth.js";
 
   const firebaseConfig = {
-  apiKey: "AIzaSyAeccx_CEqdaOkFGVPn7BdWyexIZZoB8KU",
-  authDomain: "easew-f8056.firebaseapp.com",
-  databaseURL: "https://easew-f8056-default-rtdb.firebaseio.com",
-  projectId: "easew-f8056",
-  storageBucket: "easew-f8056.appspot.com",
-  messagingSenderId: "677782385102",
-  appId: "1:677782385102:web:acb786b5badc3345d2bb9f",
-  measurementId: "G-JFNLZDG1HB"
-};
+    apiKey: "AIzaSyAeccx_CEqdaOkFGVPn7BdWyexIZZoB8KU",
+    authDomain: "easew-f8056.firebaseapp.com",
+    databaseURL: "https://easew-f8056-default-rtdb.firebaseio.com",
+    projectId: "easew-f8056",
+    storageBucket: "easew-f8056.appspot.com",
+    messagingSenderId: "677782385102",
+    appId: "1:677782385102:web:acb786b5badc3345d2bb9f",
+    measurementId: "G-JFNLZDG1HB"
+  };
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
   const database = getDatabase(app);
@@ -190,7 +221,7 @@
   onAuthStateChanged(auth, (user) => {
     if (user) {
       const uid = user.email;
-      const uuid=user.uid
+      const uuid = user.uid
       request.addEventListener('click', (e) => {
         // Signed in
         set(ref(database, 'users/' + uuid), {
@@ -217,9 +248,6 @@
       alert('PLEASE SIGNUP TO SEND THE REQUEST')
     }
   });
-
-
-
 </script>
 
 </html>
